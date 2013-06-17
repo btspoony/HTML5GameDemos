@@ -547,7 +547,7 @@ MonFrame.prototype.onDidLoadFromCCB = function(){
   this.pbar = cc.ProgressTimer.create(this.bar);
   this.pbar.setType(cc.PROGRESS_TIMER_TYPE_BAR);
   this.pbar.setAnchorPoint(cc.p(0.5,0));
-  this.pbar.setPositionY(1);
+  this.pbar.setPositionY(-1);
   this.pbar.setBarChangeRate(cc.p(1, 0))
   this.pbar.setMidpoint(cc.p(0,0));
   this.rootNode.addChild(this.pbar);
